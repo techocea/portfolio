@@ -23,7 +23,7 @@ export default function Home() {
                 delay={BLUR_FADE_DELAY}
                 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none"
                 yOffset={8}
-                text={`Hi, I&apos;m ${DATA.name.split(" ")[0]} 👋`}
+                text={`Hi, I'm ${DATA.name.split(" ")[0]} 👋`}
               />
               <BlurFadeText
                 className="max-w-[600px] text-lg pt-2.5"
@@ -158,7 +158,7 @@ export default function Home() {
                 Get in Touch
               </h2>
               <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                Have an idea? Let&apos;s bring it to life
+                Have an idea? Let's bring it to life
               </p>
               <div className="mt-10">
                 <ContactForm />
