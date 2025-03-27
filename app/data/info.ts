@@ -8,7 +8,7 @@ export const DATA = {
   location: "Negombo, SL",
   locationLink: "https://www.google.com/maps/place/sanfrancisco",
   description:
-    "Computer Science graduate turned entrepreneur, passionate about building innovative solutions and empowering others. Actively sharing insights on LinkedIn.",
+    "Computer Science Undergraduate | Entrepreneur | Web Developer | passionate about building innovative solutions and empowering others. Actively sharing insights on LinkedIn.",
   summary1:
     "I’m a **self-driven developer and entrepreneur with a strong passion for building digital solutions**. My journey started in a non-IT sector, where I discovered a love for web development and began creating websites as a hobby. I left my job when my higher studies in **Computer Science at the University of Ruhuna began,** where I honed my technical skills and deepened my understanding of software development.",
   summary2:
