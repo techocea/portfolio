@@ -36,7 +36,11 @@ export default function ContactForm() {
   const onSubmit = async (values: z.infer<typeof formSchema>) => {
     try {
       setIsLoading(true);
-      const res = await axios.post("/api/contact", values, { timeout: 30000 }); 
+      const res = await axios.post("/api/contact", values, {
+        headers: {
+          "Content-Type": "application/json",
+        },
+      });
       if (res.status === 200) {
         toast.success("Form submitted successfully!");
         form.reset();
