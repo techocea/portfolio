@@ -26,6 +26,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
+        <link rel="icon" href="/favicon.png" sizes="any" />
         <Script
           async
           src="https://www.googletagmanager.com/gtag/js?id=G-FZ5XJCDES7"
